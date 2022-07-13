@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sphinx = "*"
+sphinx-bootstrap-theme = "*"
+sphinx-copybutton = "*"
+sphinx-fontawesome = "*"
+sphinxcontrib-fulltoc = "*"
+jinja2 = "*"
+myst-parser = "*"
+sphinxawesome-theme = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
