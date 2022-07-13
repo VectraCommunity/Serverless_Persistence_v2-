@@ -10,7 +10,7 @@
 
    build_attack_machine/build_attack_machine
    lambda_attack/lambda_attack
-   lab_cleanup
+   lab_cleanup/lab_cleanup
 
 .. toctree::
    :maxdepth: 2

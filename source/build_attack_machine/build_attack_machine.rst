@@ -1,4 +1,7 @@
+.. _build_attack_machine_lab:
 
+|
+|
 
 
 Build attacker machine

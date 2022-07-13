@@ -1,9 +1,15 @@
+.. _lambda_lab:
+
+|
+|
 
 
 
+Serverless Persistence Attack
+============
 
 Start attack
-============
+++++++++++++
 
 At this point we have created vulnerable infrastructure in AWS using
 Cloudgoat. Starting as an anonymous outsider with no access or
@@ -83,7 +89,7 @@ The policy allows the user to assume and list roles
 - From the output we can see the role has Lambda admin permissions
 
 Create Lambda Function 
-======================
++++++++++++++++++++++++
 
 To assume the role you will need the role ARN for cg-lambdaManager-role-lambda.  If you need it again you can run ``aws iam list-roles --profile chris | grep cg-lambdaManager-role-lambda``
 
@@ -165,7 +171,8 @@ To assume the role you will need the role ARN for cg-lambdaManager-role-lambda. 
    :alt: ListAttachedPolicies
 
 Serverless Persistence
-======================
++++++++++++++++++++++++
+
 For this part of the attack we will use Pacu
 
 
